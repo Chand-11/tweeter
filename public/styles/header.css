@@ -1,0 +1,13 @@
+header {
+  height: 400px ;
+   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+  background-image: url("/images/black-felt-520x260.png");  
+  margin-top: 120px;
+
+}
