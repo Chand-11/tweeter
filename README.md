@@ -15,3 +15,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## HomePage
+
+!["Screenshot of tweet compose box"](https://github.com/Chand-11/tweeter/blob/master/docs/MainPage.png?raw=true)
