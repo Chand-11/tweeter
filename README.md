@@ -23,7 +23,7 @@ This repository is the starter code for the project: Students will fork and clon
 ## Validations compose box
 !["Screenshot of tweet compose box  Empty Validation "](https://github.com/Chand-11/tweeter/blob/master/docs/validation.png?raw=true)
 
-!["Screenshot of tweet compose box Over character Validation "](https://github.com/Chand-11/tweeter/blob/master/docs/valiodation-2.png?raw=true)
+!["Screenshot of tweet compose box Over character Validation "](hhttps://github.com/Chand-11/tweeter/blob/master/docs/overlengthtweet.png?raw=true)
 
 ## MouseOver event on Icons
 
