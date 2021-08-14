@@ -27,8 +27,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## MouseOver event on Icons
 
-!["Screenshot of mouseover event on icons "](https://github.com/Chand-11/tweeter/blob/master/docs/hightlightflag.png?raw=true)
+!["Screenshot of mouseover event on icons "](https://github.com/Chand-11/tweeter/blob/master/docs/flags.png?raw=true)
 
 ## Mobile View
 
-!["Screenshot of Mobile View"](https://github.com/Chand-11/tweeter/blob/master/docs/flags.png?raw=true)
+!["Screenshot of Mobile View"](https://github.com/Chand-11/tweeter/blob/master/docs/mobileview.png?raw=true)
