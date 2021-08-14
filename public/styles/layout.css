@@ -16,10 +16,14 @@ html {
 
 body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: #f0eae6;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
-  
+  background-image: url("/images/14.jpg");  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
@@ -34,5 +38,89 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 15px;
 }
 
+.post-header{
+  
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon{
+display: flex;
+align-items: center;
+}
+
+.image{
+  
+  width: 32px;
+  height:32px;
+}
+
+.tweet-header{
+  width : 100%;
+  border :rgb(112, 166, 216) solid 4px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.tweet-area{
+  width: 75%;
+  background-blend-mode: lighten;
+}
+article:hover {
+  box-shadow: 5px 10px rgb(83, 83, 151);
+  transform: scale(1.03);
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerimage i:hover {
+color:chocolate;
+}
+
+@keyframes cssAnimation {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+ @media only screen and (min-width:768px) {
+
+   body {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+
+   body > header {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 35%;
+  }
+
+  header > .profile {
+    width: 32%;
+    margin: 2vw 2vw;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top:20vh;
+    left:3vw;
+  }
+
+   body > .container {
+     margin: 7vw 2vw;
+     padding-left: 10px;
+     float: right;
+     width: 65vw;
+   }
+}

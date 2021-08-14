@@ -1,18 +1,24 @@
 .new-tweet {
+    
+  flex-flow: column;
+  margin-top: 10vh;
+  width: 100%;
+  width:75%;
   display: flex;
   flex-flow: column;
+  margin-bottom: 50px;
 }
 
 .new-tweet button{
   font-family: 'Bungee';
-  color:white;
+  color:rgb(235, 229, 229);
   background-color: #4056A1;
   border-radius: 3px;
   transition-duration: 0.4s;
 }
 
 button:hover {
-  background-color: lightblue;
+  background-color: rgb(21, 36, 102);
   color: white;
 }
 
@@ -24,10 +30,22 @@ button:hover {
   border: none;
   border-bottom: 2px solid black;
   background-color: transparent;
+ 
 }
 
 .submit-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+}
+
+.danger{
+  color: red;
+  
+}
+
+#error{
+  border: red solid 6px;
+  padding: 5px 10px;
 }

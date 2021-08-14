@@ -1,16 +1,14 @@
 nav{
-/* background-color:#4969d3;  */
-background-image: url("/images/black-felt-520x260.png");  
+background-color:#5d7cd39e;
 display: flex;
 justify-content: space-between;
 align-items: center;
 box-sizing: border-box;
 height: 120px;
 width: 100%;
-
-  margin-bottom: 100px;
-  position: fixed;
-  top:0;
+margin-bottom: 100px;
+position: fixed;
+top:0;
 color: #FFFF;
 
 }
@@ -25,6 +23,7 @@ nav p {
   align-items: center;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  
   
 }
 
